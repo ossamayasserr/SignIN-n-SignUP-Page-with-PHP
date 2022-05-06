@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>SIGN IN</title>
+</head>
+<body>
+    <h1>Sign IN</h1>
+    <small>Don't have account? then <a href="sign_up.html">Sign UP</a> NOW.</small><br><br>
+    
+    <form action='index.php' method="post" id="signInForm">
+        <div>
+            <label>Email </label>
+            <input id="email" style="margin-left: 23px;" type="text" placeholder="ossama@google.com" name="email" required autocomplete="off">
+        </div>
+        <br>
+        <div>
+            <label>Password </label>
+            <input id="password" type="password" placeholder="Password*" name="pass" required autocomplete="off">
+        </div>
+        <br>
+        <div><input type="submit" name="submin" value="Sign IN"></div>
+        <br>
+    </form>
+
+    <output id="result"></output>
+</body>
